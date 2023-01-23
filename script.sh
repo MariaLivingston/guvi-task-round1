@@ -20,6 +20,7 @@ else
   # Push individual files to "develop" branch
   git add .
   git commit -m "adding files"
+  git checkout -b develop
   git push -u origin develop
 fi
 
