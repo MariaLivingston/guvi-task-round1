@@ -15,7 +15,7 @@ if [ "$var1" == "$var2" ]; then
   tar -cvf files.tar *.txt
   git add .
   git commit -m "adding files"
-  git push -u origin master
+  git push -u origin main
 else
   # Push individual files to "develop" branch
   git add .
